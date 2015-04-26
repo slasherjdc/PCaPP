@@ -826,6 +826,22 @@
 			<identifier>Steel</identifier>
 			<substring>Breton Knight</substring>
 		</binding>
+		<binding>
+			<identifier>Elven</identifier>
+			<substring>Altmer</substring>
+		</binding>
+		<binding>
+			<identifier>Elven</identifier>
+			<substring>Altmeri</substring>
+		</binding>
+		<binding>
+			<identifier>Elven</identifier>
+			<substring>Aldmer</substring>
+		</binding>
+		<binding>
+			<identifier>Elven</identifier>
+			<substring>Aldmeri</substring>
+		</binding>
 	<!-- Racial material_Bindings end -->
 
 	<!-- Advanced bindings start -->
@@ -852,6 +868,10 @@
 		<binding>
 			<identifier>Nord</identifier>
 			<substring>Norse</substring>
+		</binding>
+		<binding>
+			<identifier>Nord</identifier>
+			<substring>VanNord</substring>
 		</binding>
 		<binding>
 			<identifier>Advanced</identifier>
@@ -1259,6 +1279,22 @@
 			<identifier>DaedricHigh</identifier>
 			<substring>Sulfuras</substring>
 		</binding>
+		<binding>
+			<identifier>Daedric</identifier>
+			<substring>Ancient Tongue</substring>
+		</binding>
+		<binding>
+			<identifier>Daedric</identifier>
+			<substring>Mystic Elven</substring>
+		</binding>
+		<binding>
+			<identifier>Daedric</identifier>
+			<substring>Divine Aegis</substring>
+		</binding>
+		<binding>
+			<identifier>DaedricHigh</identifier>
+			<substring>Aspect of Strength</substring>
+		</binding>
 	<!-- Daedric bindings end -->
 	
 	<!-- Dragonplate bindings start -->
@@ -1548,6 +1584,14 @@
 			<identifier>Draugr Honed</identifier>
 			<substring>Bow of the Forgotten Chaos</substring>
 		</binding>
+		<binding>
+			<identifier>DraugrHigh</identifier>
+			<substring>The Giant's Downfall</substring>
+		</binding>
+		<binding>
+			<identifier>DraugrHigh</identifier>
+			<substring>The Giant Slayer</substring>
+		</binding>
 	<!-- Drauger bindings end -->
 	
 	<!-- Dwarven bindings start -->
@@ -1754,6 +1798,10 @@
 		<binding>
 			<identifier>Dwarven</identifier>
 			<substring>Dorana's Hammer</substring>
+		</binding>
+		<binding>
+			<identifier>Dwarven</identifier>
+			<substring>Atulg's Edge</substring>
 		</binding>
 	<!-- Dwarven bindings end -->
 	
@@ -2864,6 +2912,10 @@
 			<identifier>Iron</identifier>
 			<substring>The Withdrawal</substring>
 		</binding>
+		<binding>
+			<identifier>Iron</identifier>
+			<substring>The Crab Slayer</substring>
+		</binding>
 	<!-- Iron bindings end -->
 	
 	<!-- Iron/Wood Clutter bindings start -->
@@ -3027,17 +3079,18 @@
 	<!-- Orcish bindings end -->
 	
 	<!-- Silver bindings start -->
+	<!-- Silver items should have a matching Refined binding -->
 		<binding>
 			<identifier>SilverHigh</identifier>
 			<substring>Honed Silver</substring>
 		</binding>
 		<binding>
-			<identifier>SilverHigh</identifier>
-			<substring>Silver Honed</substring>
-		</binding>
-		<binding>
 			<identifier>RSilverHigh</identifier>
 			<substring>Refined Honed Silver</substring>
+		</binding>
+		<binding>
+			<identifier>SilverHigh</identifier>
+			<substring>Silver Honed</substring>
 		</binding>
 		<binding>
 			<identifier>RSilverHigh</identifier>
@@ -3096,6 +3149,10 @@
 			<substring>Goveri's Unwinder</substring>
 		</binding>
 		<binding>
+			<identifier>RSilverHigh</identifier>
+			<substring>Refined Goveri's Unwinder</substring>
+		</binding>
+		<binding>
 			<identifier>SilverHigh</identifier>
 			<substring>Cyrodiilic Silver</substring>
 		</binding>
@@ -3134,6 +3191,22 @@
 		<binding>
 			<identifier>SilverHigh</identifier>
 			<substring>Mithrodin</substring>
+		</binding>
+		<binding>
+			<identifier>SilverHigh</identifier>
+			<substring>Merblight</substring>
+		</binding>
+		<binding>
+			<identifier>RSilverHigh</identifier>
+			<substring>Refined Merblight</substring>
+		</binding>
+		<binding>
+			<identifier>SilverHigh</identifier>
+			<substring>Blessed Blade of Stendarr</substring>
+		</binding>
+		<binding>
+			<identifier>RSilverHigh</identifier>
+			<substring>Refined Blessed Blade of Stendarr</substring>
 		</binding>
 	<!-- Silver bindings end -->
 	
@@ -3816,6 +3889,30 @@
 		<binding>
 			<identifier>Steel</identifier>
 			<substring>Replica Heirloom Sword</substring>
+		</binding>
+		<binding>
+			<identifier>Steel</identifier>
+			<substring>Sorrow</substring>
+		</binding>
+		<binding>
+			<identifier>Steel</identifier>
+			<substring>Cloudcleaver</substring>
+		</binding>
+		<binding>
+			<identifier>Steel</identifier>
+			<substring>Steel Sabre</substring>
+		</binding>
+		<binding>
+			<identifier>Steel</identifier>
+			<substring>Dragon's Strength</substring>
+		</binding>
+		<binding>
+			<identifier>Steel</identifier>
+			<substring>Dragon's Grace</substring>
+		</binding>
+		<binding>
+			<identifier>Steel</identifier>
+			<substring>Blessed Dagger</substring>
 		</binding>
 	<!-- Steel bindings end -->
 
@@ -5383,6 +5480,30 @@
 			<substring>Breton Knight Sword</substring>
 			<identifier>Arming Sword</identifier>
 		</binding>
+		<binding>
+			<substring>Black Sting</substring>
+			<identifier>Arming Sword</identifier>
+		</binding>
+		<binding>
+			<substring>Daedric Crescent - Short</substring>
+			<identifier>Arming Sword</identifier>
+		</binding>
+		<binding>
+			<substring>Sword of the Divine Aegis</substring>
+			<identifier>Arming Sword</identifier>
+		</binding>
+		<binding>
+			<substring>Aspect of Strength</substring>
+			<identifier>Arming Sword</identifier>
+		</binding>
+		<binding>
+			<substring>Merblight</substring>
+			<identifier>Arming Sword</identifier>
+		</binding>
+		<binding>
+			<substring>Blessed Blade of Stendarr</substring>
+			<identifier>Arming Sword</identifier>
+		</binding>
 	<!-- Arming Sword bindings end -->
 
 	<!-- Broadsword bindings start -->
@@ -5600,7 +5721,7 @@
 			<identifier>Dagger</identifier>
 		</binding>
 		<binding>
-			<substring>Black Sting</substring>
+			<substring>Black Sting Dagger</substring>
 			<identifier>Dagger</identifier>
 		</binding>
 		<binding>
@@ -5657,6 +5778,14 @@
 		</binding>
 		<binding>
 			<substring>HoarFrost</substring>
+			<identifier>Dagger</identifier>
+		</binding>
+		<binding>
+			<substring>Shards of Narsil</substring>
+			<identifier>Dagger</identifier>
+		</binding>
+		<binding>
+			<substring>The Crab Slayer</substring>
 			<identifier>Dagger</identifier>
 		</binding>
 	<!-- Dagger bindings end -->
@@ -5738,6 +5867,18 @@
 		</binding>
 		<binding>
 			<substring>Cloud Courtblade</substring>
+			<identifier>Katana</identifier>
+		</binding>
+		<binding>
+			<substring>Zatoichi</substring>
+			<identifier>Katana</identifier>
+		</binding>
+		<binding>
+			<substring>Dragon's Strength</substring>
+			<identifier>Katana</identifier>
+		</binding>
+		<binding>
+			<substring>Dragon's Grace</substring>
 			<identifier>Katana</identifier>
 		</binding>
 	<!-- Katana bindings end -->
@@ -6253,6 +6394,30 @@
 			<substring>Akaviri Short Saber</substring>
 			<identifier>Tanto</identifier>
 		</binding>
+		<binding>
+			<substring>Short Steel Zatoichi</substring>
+			<identifier>Tanto</identifier>
+		</binding>
+		<binding>
+			<substring>Short Iron Zatoichi</substring>
+			<identifier>Tanto</identifier>
+		</binding>
+		<binding>
+			<substring>Short Ebony  Zatoichi</substring>
+			<identifier>Tanto</identifier>
+		</binding>
+		<binding>
+			<substring>Short Dwarven  Zatoichi</substring>
+			<identifier>Tanto</identifier>
+		</binding>
+		<binding>
+			<substring>Short Orcish Zatoichi</substring>
+			<identifier>Tanto</identifier>
+		</binding>
+		<binding>
+			<substring>Short Elven Zatoichi</substring>
+			<identifier>Tanto</identifier>
+		</binding>
 	<!-- Tanto bindings end -->
 
 	<!-- Wakizashi bindings start -->
@@ -6531,6 +6696,14 @@
 			<substring>Hrothmund</substring>
 			<identifier>Battleaxe</identifier>
 		</binding>
+		<binding>
+			<substring>Battlexe</substring>
+			<identifier>Battleaxe</identifier>
+		</binding>
+		<binding>
+			<substring>Cloudcleaver</substring>
+			<identifier>Battleaxe</identifier>
+		</binding>
 	<!-- Battleaxe bindings end -->
 	
 	<!-- Battlestaff bindings start -->
@@ -6766,7 +6939,7 @@
 			<identifier>Greatsword</identifier>
 		</binding>
 		<binding>
-			<substring>Daedric Crescent</substring>
+			<substring>Deadric Crescent</substring>
 			<identifier>Greatsword</identifier>
 		</binding>
 		<binding>
@@ -6867,6 +7040,22 @@
 		</binding>
 		<binding>
 			<substring>Loner's Greatsword</substring>
+			<identifier>Greatsword</identifier>
+		</binding>
+		<binding>
+			<substring>G. Sword</substring>
+			<identifier>Greatsword</identifier>
+		</binding>
+		<binding>
+			<substring>Black Sting Greatsword</substring>
+			<identifier>Greatsword</identifier>
+		</binding>
+		<binding>
+			<substring>Atulg's Edge</substring>
+			<identifier>Greatsword</identifier>
+		</binding>
+		<binding>
+			<substring>The Giant Slayer</substring>
 			<identifier>Greatsword</identifier>
 		</binding>
 	<!-- Greatsword bindings end -->
@@ -7130,6 +7319,10 @@
 			<substring>Dwemer Automatic Projectile Launcher</substring>
 			<identifier>Crossbow</identifier>
 		</binding>
+		<binding>
+			<substring>Aetherial Bolt Launcher</substring>
+			<identifier>Crossbow</identifier>
+		</binding>
 	<!-- Crossbow bindings end -->
 	
 	<!-- Longbow bindings start -->
@@ -7331,6 +7524,18 @@
 		</binding>
 		<binding>
 			<substring>Bow of the Forgotten Chaos</substring>
+			<identifier>Longbow</identifier>
+		</binding>
+		<binding>
+			<substring>VanNord Bow</substring>
+			<identifier>Longbow</identifier>
+		</binding>
+		<binding>
+			<substring>Mystic Elven Bow</substring>
+			<identifier>Longbow</identifier>
+		</binding>
+		<binding>
+			<substring>The Giant's Downfall</substring>
 			<identifier>Longbow</identifier>
 		</binding>
 	<!-- Longbow bindings end -->
@@ -8799,6 +9004,13 @@
 			<type>STARTSWITH</type>
 		</exclusion>
 	<!-- Rigmor of Bruma -->
+	<!-- Campfire -->
+		<exclusion>
+			<text>_Camp_</text>
+			<target>EDID</target>
+			<type>STARTSWITH</type>
+		</exclusion>
+	<!-- Campfire -->
 	</reforge_exclusions>
 
 </ns2:weapons>

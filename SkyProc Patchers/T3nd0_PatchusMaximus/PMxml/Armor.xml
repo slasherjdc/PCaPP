@@ -810,6 +810,22 @@
 		<binding>
 			<identifier>LightFaction</identifier>
 			<substring>Imperial Tattered</substring>
+		</binding>        
+		<binding>
+			<identifier>HeavyFactionHigh</identifier>
+			<substring>Dragonguard Boots</substring>
+		</binding>
+		<binding>
+			<identifier>HeavyFactionHigh</identifier>
+			<substring>Dragonguard Armor</substring>
+		</binding>
+		<binding>
+			<identifier>HeavyFactionHigh</identifier>
+			<substring>Dragonguard Gauntlets</substring>
+		</binding>
+		<binding>
+			<identifier>HeavyFactionHigh</identifier>
+			<substring>Dragonguard Helmet</substring>
 		</binding>
 	<!-- Faction material_Bindings end -->
 	
@@ -1849,6 +1865,14 @@
 		<binding>
 			<identifier>Daedric</identifier>
 			<substring>H8</substring>
+		</binding>
+		<binding>
+			<identifier>DaedricLight</identifier>
+			<substring>Mystic Elven</substring>
+		</binding>
+		<binding>
+			<identifier>Daedric</identifier>
+			<substring>Divine Aegis</substring>
 		</binding>
 	<!-- Daedric Material Bindings end -->
 	
@@ -3670,6 +3694,10 @@
 			<identifier>Glass</identifier>
 			<substring>Morokei's Greaves</substring>
 		</binding>
+		<binding>
+			<identifier>GlassHigh</identifier>
+			<substring>Black Hood</substring>
+		</binding> 
 	<!-- Glass Material Bindings end -->
 	
 	<!-- Gold Material Bindings start -->
@@ -3853,6 +3881,10 @@
 		<binding>
 			<identifier>Hide</identifier>
 			<substring>Gray Cowl Of Nocturnal</substring>
+		</binding>
+		<binding>
+			<identifier>Hide</identifier>
+			<substring>Belko</substring>
 		</binding>
 	<!-- Hide Material Bindings end -->
 
@@ -5198,6 +5230,10 @@
 			<identifier>HNordic</identifier>
 			<substring>Feyngaar's Helmet</substring>
 		</binding>
+		<binding>
+			<identifier>HNordic</identifier>
+			<substring>VanNord</substring>
+		</binding>
 	<!-- Nord Material Bindings end -->
 	
 	<!-- Orcish Material Bindings start -->
@@ -6354,6 +6390,10 @@
 			<identifier>Steel</identifier>
 			<substring>Rigmors Gauntlets</substring>
 		</binding>
+		<binding>
+			<identifier>Steel Heavy</identifier>
+			<substring>The Giant-Slayer's Plate</substring>
+		</binding>
 	<!-- Steel Material Bindings end -->
 	
 	<!-- Steel Plate Material Bindings start -->
@@ -6709,6 +6749,10 @@
 		<binding>
 			<identifier>HStalhrim</identifier>
 			<substring>Red Stalhrim Heavy</substring>
+		</binding>
+		<binding>
+			<identifier>LStalhrimLow</identifier>
+			<substring>Vayan</substring>
 		</binding>
 	<!-- Stalhrim Material Bindings end -->
 	
@@ -8922,5 +8966,12 @@
 			<type>STARTSWITH</type>
 		</exclusion>
 	<!-- Rigmor of Bruma -->
+	<!-- Campfire -->
+		<exclusion>
+			<text>_Camp_</text>
+			<target>EDID</target>
+			<type>STARTSWITH</type>
+		</exclusion>
+	<!-- Campfire -->
 	</reforge_exclusions>
 </ns2:armor>
